@@ -1,43 +1,21 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f1f5f8; /* Initial Background Color */
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
 
-.container {
+#gameContainer{
     text-align: center;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-h1 {
-    color: #333;
+#gameBoard{
+    border: 3px solid;
 }
-
-.color {
-    font-weight: bold;
-    color: #0056b3;
+#scoreText{
+    font-family: "Permanent Marker", cursive;
+    font-size: 100px;
 }
-
-button {
-    background-color: #0056b3;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+#resetBtn{
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
     cursor: pointer;
-    font-size: 16px;
-    margin-top: 20px;
 }
 
-button:hover {
-    background-color: #003c78;
-}
